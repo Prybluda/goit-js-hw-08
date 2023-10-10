@@ -4,7 +4,7 @@ import { galleryItems } from './gallery-items';
 import "simplelightbox/dist/simple-lightbox.min.css";
 // Change code below this line
 
-console.log(galleryItems);
+// console.log(galleryItems);
 const ul = document.querySelector('.gallery')
 const li = galleryItems.map(({original, preview, description}) =>
 `<li class="gallery__item">
@@ -20,7 +20,7 @@ const li = galleryItems.map(({original, preview, description}) =>
 ).join('');
 ul.insertAdjacentHTML('beforeend', li);
 
-ul.addEventListener('click', openImg);
+// ul.addEventListener('click', openImg);
 
 const lightbox = new SimpleLightbox('.gallery a', { 
   captionDelay: 250,
