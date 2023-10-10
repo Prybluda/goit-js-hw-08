@@ -13,4 +13,4 @@ player.on('timeupdate', throttled);
 const currentTime = localStorage.getItem("videoplayer-current-time");
 const parsedCurrentTime = Number(currentTime);
 
-player.setCurrentTime(parsedCurrentTime)
+player.setCurrentTime(parsedCurrentTime);
